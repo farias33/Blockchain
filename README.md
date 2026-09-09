@@ -1,4 +1,4 @@
-# 🚀 Projeto Blockchain
+#  Projeto Blockchain
 
 Este projeto implementa um sistema de blockchain básico com as seguintes funcionalidades principais:
 - **Criação do Bloco Gênesis**
@@ -9,7 +9,7 @@ Este projeto implementa um sistema de blockchain básico com as seguintes funcio
 
 É uma implementação simples, projetada para simular as funções principais de um sistema de blockchain, fornecendo uma base para construir projetos mais avançados de blockchain.
 
-## 🔑 Principais Funcionalidades
+##  Principais Funcionalidades
 
 - **Bloco Gênesis**: O primeiro bloco da blockchain, criado com um hash especial "zero".
 - **Prova de Trabalho**: O processo de mineração onde cada bloco requer trabalho computacional para ser adicionado à blockchain.
@@ -17,13 +17,13 @@ Este projeto implementa um sistema de blockchain básico com as seguintes funcio
 - **Ajuste Dinâmico de Dificuldade**: A dificuldade de mineração é ajustada dinamicamente para garantir que os blocos sejam minerados a uma taxa constante.
 - **Simulação de Ataques**: Simula ataques na blockchain, alterando transações e recalculando os hashes.
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 - **block.h / block.c**: Contém as definições e a lógica para gerenciar blocos individuais, incluindo a gestão de transações e o cálculo da árvore de Merkle.
 - **blockchain.h / blockchain.c**: Gerencia a blockchain como um todo, incluindo a adição de blocos, salvamento/carregamento da blockchain e ajuste de dificuldade da mineração.
 - **main.c**: O ponto de entrada principal para o aplicativo. Ele lida com a entrada do usuário, interage com a blockchain e controla o processo de mineração.
 
-## 🚀 Como Funciona
+##  Como Funciona
 
 ### Estrutura do Bloco
 
@@ -45,7 +45,7 @@ Cada bloco na blockchain contém os seguintes componentes:
 ### Verificando Transações
 - A blockchain usa uma árvore de Merkle para verificar de forma eficiente se uma transação pertence a um bloco. Isso é essencial para a escalabilidade em blockchains no mundo real.
 
-## 🛠️ Começando
+##  Começando
 
 ### Pré-requisitos
 Certifique-se de que você tenha o seguinte instalado:
