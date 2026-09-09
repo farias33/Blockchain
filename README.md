@@ -1,6 +1,6 @@
 #  Projeto Blockchain
 
-Este projeto implementa um sistema de blockchain básico com as seguintes funcionalidades principais:
+Este projeto implementa um sistema de blockchain básico em C com as seguintes funcionalidades principais:
 - **Criação do Bloco Gênesis**
 - **Gestão de Transações**
 - **Cálculo da Árvore de Merkle**
